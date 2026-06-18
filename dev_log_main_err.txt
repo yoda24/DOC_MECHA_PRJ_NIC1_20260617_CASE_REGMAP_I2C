@@ -1,0 +1,70 @@
+...
+[    2.487914] <0>.(0)[1:swapper/0]tfa98xx_i2c_init(): TFA98XX init enter
+[    2.488724] <0>.(0)[1:swapper/0]tfa98xx_i2c_init(): TFA98XX driver version 2.10.1-a
+[    2.489817] <5>.(5)[1:swapper/0]tfa98xx_i2c_init(): TFA98XX driver version 2.10.1-a
+[    2.490973] <5>.(5)[1:swapper/0]tfa98xx_i2c_probe(): TFA98XX i2c probe enter
+[    2.491846] <5>.(5)[1:swapper/0]tfa98xx_i2c_probe(): tfa98xx_i2c_probe
+[    2.492659] <5>.(5)[1:swapper/0]tfa98xx_i2c_probe(): TFA98XX i2c check func success.
+[    2.493685] <5>.(5)[1:swapper/0]tfa98xx_i2c_probe(): TFA98XX Success to allocate register map
+[    2.494744] <5>.(5)[1:swapper/0]tfa98xx_parse_dt(): TFA98XX using pinctrl
+[    2.495683] <5>.(5)[1:swapper/0]tfa98xx_ext_reset(): TFA98XX reset using pinctrl
+...
+[    2.509213] <4>.(4)[1:swapper/0]tfa98xx_ext_reset(): TFA98XX: pinctrl reset done
+...
+[    2.530589] <5>.(5)[1:swapper/0]DEBUG: timing=0x0, ext_flag=0x0, mode=0, speed=100, addr=0x35
+[    2.531926] <5>.(5)[1:swapper/0]tfa98xx_i2c_probe(): TFA98XX: reg 0x00 = 0x0b
+[    2.532812] <5>.(5)[1:swapper/0]DEBUG: timing=0x0, ext_flag=0x0, mode=0, speed=100, addr=0x35
+[    2.534149] <5>.(5)[1:swapper/0]DEBUG: timing=0x0, ext_flag=0x0, mode=0, speed=100, addr=0x35
+[    2.535493] <5>.(5)[1:swapper/0]tfa98xx_i2c_probe(): TFA98XX: reg 0x01 = 0x00
+[    2.536378] <5>.(5)[1:swapper/0]DEBUG: timing=0x0, ext_flag=0x0, mode=0, speed=100, addr=0x35
+[    2.537457] [msdc][msdc_command_resp_polling]: msdc1 CMD<8> MSDC_INT_CMDTMO Arg<0x000001aa>[    2.537727] <4>.(5)[1:swapper/0]DEBUG: timing=0x0, ext_flag=0x0, mode=0, speed=100, addr=0x35
+[    2.538025] <4>.(5)[1:swapper/0]tfa98xx_i2c_probe(): TFA98XX: reg 0x02 = 0x01
+[    2.538032] <4>.(5)[1:swapper/0]DEBUG: timing=0x0, ext_flag=0x0, mode=0, speed=100, addr=0x35
+[    2.538316] <4>.(5)[1:swapper/0]DEBUG: timing=0x0, ext_flag=0x0, mode=0, speed=100, addr=0x35
+[    2.538625] <4>.(5)[1:swapper/0]tfa98xx_i2c_probe(): TFA98XX: reg 0x03 = 0x00
+[    2.538632] <4>.(5)[1:swapper/0]DEBUG: timing=0x0, ext_flag=0x0, mode=0, speed=100, addr=0x35
+[    2.538928] <4>.(5)[1:swapper/0]DEBUG: timing=0x0, ext_flag=0x0, mode=0, speed=100, addr=0x35
+[    2.539233] <4>.(5)[1:swapper/0]tfa98xx_i2c_probe(): TFA98XX: reg 0x04 = 0x88
+[    2.539239] <4>.(5)[1:swapper/0]DEBUG: timing=0x0, ext_flag=0x0, mode=0, speed=100, addr=0x35
+[    2.539523] <4>.(5)[1:swapper/0]DEBUG: timing=0x0, ext_flag=0x0, mode=0, speed=100, addr=0x35
+[    2.539828] <4>.(5)[1:swapper/0]tfa98xx_i2c_probe(): TFA98XX: reg 0x05 = 0x93
+[    2.539835] <4>.(5)[1:swapper/0]DEBUG: timing=0x0, ext_flag=0x0, mode=0, speed=100, addr=0x35
+[    2.540128] <4>.(5)[1:swapper/0]DEBUG: timing=0x0, ext_flag=0x0, mode=0, speed=100, addr=0x35
+[    2.540421] <4>.(5)[1:swapper/0]tfa98xx_i2c_probe(): TFA98XX: reg 0x06 = 0x00
+[    2.540428] <4>.(5)[1:swapper/0]DEBUG: timing=0x0, ext_flag=0x0, mode=0, speed=100, addr=0x35
+[    2.540730] <4>.(5)[1:swapper/0]DEBUG: timing=0x0, ext_flag=0x0, mode=0, speed=100, addr=0x35
+[    2.541022] <4>.(5)[1:swapper/0]tfa98xx_i2c_probe(): TFA98XX: reg 0x07 = 0x8f
+[    2.541029] <4>.(5)[1:swapper/0]DEBUG: timing=0x0, ext_flag=0x0, mode=0, speed=100, addr=0x35
+[    2.541311] <4>.(5)[1:swapper/0]DEBUG: timing=0x0, ext_flag=0x0, mode=0, speed=100, addr=0x35
+[    2.541603] <4>.(5)[1:swapper/0]tfa98xx_i2c_probe(): TFA98XX: reg 0x08 = 0x38
+[    2.541610] <4>.(5)[1:swapper/0]DEBUG: timing=0x0, ext_flag=0x0, mode=0, speed=100, addr=0x35
+[    2.541913] <4>.(5)[1:swapper/0]DEBUG: timing=0x0, ext_flag=0x0, mode=0, speed=100, addr=0x35
+[    2.542205] <4>.(5)[1:swapper/0]tfa98xx_i2c_probe(): TFA98XX: reg 0x09 = 0x82
+[    2.542212] <4>.(5)[1:swapper/0]DEBUG: timing=0x0, ext_flag=0x0, mode=0, speed=100, addr=0x35
+[    2.542504] <4>.(5)[1:swapper/0]DEBUG: timing=0x0, ext_flag=0x0, mode=0, speed=100, addr=0x35
+[    2.542796] <4>.(5)[1:swapper/0]tfa98xx_i2c_probe(): TFA98XX: reg 0x0a = 0x3e
+[    2.542803] <4>.(5)[1:swapper/0]DEBUG: timing=0x0, ext_flag=0x0, mode=0, speed=100, addr=0x35
+[    2.543096] <4>.(5)[1:swapper/0]DEBUG: timing=0x0, ext_flag=0x0, mode=0, speed=100, addr=0x35
+[    2.543388] <4>.(5)[1:swapper/0]tfa98xx_i2c_probe(): TFA98XX: reg 0x0b = 0x00
+[    2.543395] <4>.(5)[1:swapper/0]DEBUG: timing=0x0, ext_flag=0x0, mode=0, speed=100, addr=0x35
+[    2.543676] <4>.(5)[1:swapper/0]DEBUG: timing=0x0, ext_flag=0x0, mode=0, speed=100, addr=0x35
+[    2.543979] <4>.(5)[1:swapper/0]tfa98xx_i2c_probe(): TFA98XX: reg 0x0c = 0x80
+[    2.543986] <4>.(5)[1:swapper/0]DEBUG: timing=0x0, ext_flag=0x0, mode=0, speed=100, addr=0x35
+[    2.544278] <4>.(5)[1:swapper/0]DEBUG: timing=0x0, ext_flag=0x0, mode=0, speed=100, addr=0x35
+[    2.544570] <4>.(5)[1:swapper/0]tfa98xx_i2c_probe(): TFA98XX: reg 0x0d = 0x80
+[    2.544577] <4>.(5)[1:swapper/0]DEBUG: timing=0x0, ext_flag=0x0, mode=0, speed=100, addr=0x35
+[    2.544880] <4>.(5)[1:swapper/0]DEBUG: timing=0x0, ext_flag=0x0, mode=0, speed=100, addr=0x35
+[    2.545162] <4>.(5)[1:swapper/0]tfa98xx_i2c_probe(): TFA98XX: reg 0x0e = 0x0f
+[    2.545168] <4>.(5)[1:swapper/0]DEBUG: timing=0x0, ext_flag=0x0, mode=0, speed=100, addr=0x35
+[    2.545461] <4>.(5)[1:swapper/0]DEBUG: timing=0x0, ext_flag=0x0, mode=0, speed=100, addr=0x35
+[    2.545754] <4>.(5)[1:swapper/0]tfa98xx_i2c_probe(): TFA98XX: reg 0x0f = 0x00
+[    2.579294] <4>.(5)[1:swapper/0]REGMAP_DBG reg=0x3 stride=1
+[    2.579304] <4>.(5)[1:swapper/0]DEBUG: timing=0x4de6d418, ext_flag=0xffffffc0, mode=2, speed=54296, addr=0x35
+[    2.579315] <4>.(5)[1:swapper/0]ERROR,238:  the speed is too fast for this mode.
+[    2.579320] <4>.(5)[1:swapper/0]ERROR,886: i2c_set_speed fail,return_value=-22
+[    2.579333] <4>.(5)[1:swapper/0]tfa98xx 0-0035: Failed to read Revision register: -22
+...
+[    2.579351] <4>.(5)[1:swapper/0]BOOTPROF:      2579.345620:probe: probe=i2c_device_probe drv=tfa98xx(ffffffc0010d1128)    88.370231ms
+[    2.579435] <4>.(5)[1:swapper/0]tfa98xx: probe of 0-0035 failed with error -5
+[    2.579531] <4>.(5)[1:swapper/0]initcall tfa98xx_i2c_init+0x0/0x9c returned 0 after 89464 usecs
+...
