@@ -33,7 +33,7 @@ NXP TFA9890 is a high-performance Class-D audio amplifier with integrated DSP an
 
 #### Main Error ([error log](./dev_log_main_err.txt))
 
-Config
+### Config
 ```
 CONFIG_MTK_I2C_EXTENSION=y
 ```
@@ -76,7 +76,7 @@ static struct i2c_algorithm mt_i2c_algorithm = {
 
 </pre>
 
-###Garbage Flow Error
+### Garbage Flow Error
 <pre>
   
                                                  struct i2c_msg (12 BYTE)
@@ -178,7 +178,7 @@ Result ([Log 1](./LOG1.txt)):
 ║                              ║                              ║                            ║
 ╠══════════════════════════════╩══════════════════════════════╩════════════════════════════╣
 ║                                                                                          ║
-║  Result:                                                                             ║
+║  Result:                                                                                 ║
 ║  ──────────────────────────────────────────────────────────────────────────────────────  ║
 ║  SMBus Byte  = 8-bit, not enough for register 16-bit                                     ║
 ║  SMBus Word  = 16-bit byte order swap (little-endian vs big-endian)                      ║
