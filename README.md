@@ -1,4 +1,4 @@
-## TFA98XX Driver - Compatibility Adaptation for Mediatek I2C Extension
+## TFA98XX Driver - Compatibility Adaptation for Mediatek I2C Extension (DEVELOPMENT END 23 06 2026)
 
 
 ### TFA9890 Audio Amplifier - Key Specifications
